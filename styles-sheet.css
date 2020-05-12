@@ -1,0 +1,28 @@
+body{
+font-family: 'Work Sans', sans-serif;
+}
+footer {
+      background-color: #555;
+	  color:white;
+	  
+	  }
+#success_message{ display: none;}
+
+ 
+.navbar-default .navbar-nav > li.dropdown:hover > a, 
+.navbar-default .navbar-nav > li.dropdown:hover > a:hover,
+.navbar-default .navbar-nav > li.dropdown:hover > a:focus {
+    background-color: rgb(231, 231, 231);
+    color: rgb(85, 85, 85);
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.thumbnail{
+    transition:ease-in-out 2s;
+}
+
+.thumbnail:hover{
+    transform: scale(1rem);
+}

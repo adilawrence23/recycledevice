@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Work</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+  	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+<link href="styles-sheet.css" rel="stylesheet" type="text/css"/>
+<style>
+.button{
+background-color:white;
+  border:solid;
+  color:black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration:none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display:block;
+  margin:auto;
+  width:100px;
+  border-radius:10px;
+}
+</style>
+<body>
+
+
+<!--<nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">-->
+<nav class="navbar navbar-inverse navbar-fixed-top navbar navbar-expand-lg navbar navbar-light" style="background-color:black;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="Bootstrap-Work.html">
+	  <img src="scrapq.png" height="28" alt="Recycle Device">
+	  </a>
+   
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="Bootstrap-Work.html">Home</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown"><!--href="#">-->Device Information<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="Smartphone.html">SmartPhones</a></li>
+          <li><a href="Laptop.html">Laptops & Desktops</a></li>
+          <li><a href="Smartwatch.html">Smartwatches & Fitness Bands</a></li>
+		  <li><a href="Camera.html">Cameras</a></li>
+        </ul>
+      </li>
+      <li><a href="Bootstrap3.html">About Us</a></li>
+    </ul>
+	
+	
+	<form class="navbar-form navbar-left" action="/action_page.php">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-primary" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+	<ul class="nav navbar-nav navbar-right">
+        
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-chevron-down"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Bootstrap2.html">Account</a></li>
+            <li><a href="Bootstrap1.html">Orders</a></li>
+            <li><a href="Bootstrap1.html">Settings</a></li>
+            <li class="divider"></li>
+            <li><a href="Bootstrap1.html">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+
+	
+	
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="Bootstrap2.html"><span class="glyphicon glyphicon-user"></span>Register</a></li>
+      <li><a href="Bootstrap1.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+<br>
+<br>
+<br>
+
+
+ <div class="container">    
+        <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
+            <div class="panel panel-info" >
+                    <div class="panel-heading">
+                        <div class="panel-title">Sign In</div>
+                        <div style="float:right; font-size: 80%; position: relative; top:-10px"><a href="Bootstrap2.html">Forgot password?</a></div>
+                    </div>     
+
+                    <div style="padding-top:30px" class="panel-body" >
+
+                        <div style="display:none" id="login-alert" class="alert alert-danger col-sm-12"></div>
+                            
+                        <form id="loginform" class="form-horizontal" role="form">
+                                    
+                            <div style="margin-bottom: 25px" class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                        <input id="login-username" type="text" class="form-control" name="username" value="" placeholder="Username or Email">                                        
+                                    </div>
+                                
+                            <div style="margin-bottom: 25px" class="input-group">
+                                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                        <input id="login-password" type="password" class="form-control" name="password" placeholder="Password">
+                                    </div>
+                                    
+
+                                
+                            <div class="input-group">
+                                      <div class="checkbox">
+                                        <label>
+                                          <input id="login-remember" type="checkbox" name="remember" value="1"> Remember me
+                                        </label>
+                                      </div>
+                                    </div>
+
+
+                                <div style="margin-top:10px" class="form-group">
+                                    <!-- Button -->
+
+                                    <div class="col-sm-12 controls">
+                                      <a id="btn-login" href="Bootstrap-Work.html" class="btn btn-success">Login  </a>
+                                      <a id="btn-fblogin" href="https://www.facebook.com/?stype=lo&jlou=AfchF5v9KHHX7O5GxIqVkyIBdDTGr3fP49UE5hVVt8QsAXO-2lX0cgrIyIdD1_7pW0WvpPIncUZ8NxKWstAFugKlizZd4IGicQT0KOiqdIDWpA&smuh=61647&lh=Ac--MSXP64FFgka7" class="btn btn-primary">Login with Facebook</a>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <div class="col-md-12 control">
+                                        <div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
+                                            Don't have an account! 
+                                        <a href="Bootstrap2.html" >
+                                            Sign Up Here
+                                        </a>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </form>     
+
+
+
+                        </div>                     
+                    </div>  
+        </div>
+        
+                                   <!--                                     
+                                    <div class="col-md-offset-3 col-md-9">
+                                        <button id="btn-signup" type="button" class="btn btn-info"><i class="icon-hand-right"></i> &nbsp Sign Up</button>
+                                        <span style="margin-left:8px;">or</span>  
+                                    </div>
+                                </div>
+                                
+                                <div style="border-top: 1px solid #999; padding-top:20px"  class="form-group">
+                                    
+                                    <div class="col-md-offset-3 col-md-9">
+                                        <button id="btn-fbsignup" type="button" class="btn btn-primary"><i class="icon-facebook"></i>   Sign Up with Facebook</button>
+                                    </div>                                           
+                                        
+                                </div>-->
+                                
+                                
+                                
+                            </form>
+                         </div>
+                    </div>
+
+               
+               
+                
+         </div> 
+    </div>
+    <br>
+	<br>
+	<br>
+	<br>
+	
+<footer class="text-center">
+<a class="up-arrow" href="Bootstrap1.html" data-toggle="tooltip" title="TO TOP">
+<span class="glyphicon glyphicon-chevron-up"></span>
+ </a><br><br>
+ <p>Bootstrap Theme Made By <a href="AdiRay" data-toggle="tooltip" title="Visit me">AdiRay</a></p> 
+ </footer>
+</body>
+</html>
